@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Chat-App</string>
+    <string name="vaishnavi">Vaishnavi</string>
+    <string name="sent_message">This is sent message</string>
+    <string name="recieve_message">This is recieve message</string>
+</resources>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:backgroundTint="@color/blue"
+       android:textAlignment="textEnd"
+        android:background="@drawable/messageboxbackground"
+        tools:ignore="UselessParent"
+        android:minWidth="100dp"
+        >
+<!--        android:layout_marginStart="100dp"-->
+        <TextView
+            android:id="@+id/txt_sent_msg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sent_message"
+            android:textColor="@color/lightblue"
+
+            android:textSize="18sp"
+            android:padding="10dp"
+            />
+        
+        
+    </RelativeLayout>
+        
+</RelativeLayout>
